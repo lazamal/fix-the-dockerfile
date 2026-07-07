@@ -16,6 +16,9 @@ FROM node:26-bookworm
 
 WORKDIR /app
 
+COPY package.json  package.json
+COPY  package-lock.json  package-lock.json
+
 COPY . .
 
 CMD ["node", "index.js"]

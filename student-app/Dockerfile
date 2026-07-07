@@ -12,7 +12,7 @@
 #   git checkout hints
 # ---------------------------------------------------------------------------
 
-FROM node
+FROM node:26-bookworm
 
 COPY . .
 

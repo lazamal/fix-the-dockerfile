@@ -14,6 +14,8 @@
 
 FROM node:26-bookworm
 
+WORKDIR /app
+
 COPY . .
 
 CMD ["node", "index.js"]
